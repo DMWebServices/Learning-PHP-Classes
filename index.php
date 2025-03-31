@@ -13,8 +13,17 @@
 </head>
 <body>
 
-   
-    
+   <?php
+   error_reporting(E_ALL);
+   ini_set('display_errors', 1);
+
+    require_once '/Classes/Person.php';
+
+    $person1 = new Person("Big", "Green" );
+    echo $person1->isHuman;
+
+    ?>
+
 </body>
 </html>
     

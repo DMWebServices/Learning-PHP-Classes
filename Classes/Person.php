@@ -3,21 +3,23 @@
 Class Person {
 
     // Properties / Fields
-    private $haircolour;
+    private $personheight;
     private $eyecolour;
     public $isHuman = "Yes";
 
     // Constructor
     public function __construct($haircolour, $eyecolour = "None") {
 
-        $this->haircolour = $haircolour;
+        $this->personheight = $personheight;
         $this->eyecolour = $eyecolour;
         
     }
+
 }
 
-$person1 = new Person("Greeen", "Blue");
-$person2 = new Person("Red", "");
+echo "this works!";
 
-echo $person1->isHuman;
+?>
+
+
 
